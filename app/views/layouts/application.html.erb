@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <title>SimpleApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <style>
+      body {
+          background-color: #d0e4fe;
+      }
+
+  </style>
+</head>
+<body>
+
+
+<hr> <br>
+<hr>
+
+<%= yield %>
+
+</body>
+</html>

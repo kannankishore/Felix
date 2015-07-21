@@ -1,0 +1,17 @@
+<title>Shared Todo App </title>
+
+<h1>Shared Todo App</h1>
+
+<p>All your todos here</p>
+
+<ul style="list-style-type:circle">
+  <% @todo_items.each do |x| %>
+  <li> <%= x.todo_items  %></li>
+      <% end %>
+</ul>
+
+<ol type = "1" >
+  <% @items.each do |t| %>
+      <li><%= t %> </li>
+  <% end %>
+    </ol>
